@@ -786,3 +786,34 @@ figure.effect-sadie:hover p {
 	zoom: 75%;
 }
 }
+
+.goup {
+	position: fixed;
+	top : 660px;
+	left: 40px;
+	color: black;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+.goup-primary {
+	position: fixed;
+}
+.goupmain {
+	position: fixed;
+}
+.cd-slider-nav {
+	position: fixed;
+	top : -5px;
+	background-color: white;
+}
+.goupmainfinal {
+	position: fixed;
+	top : 100px;
+	background-color: white;
+}
+.tm-navbar-bg {
+	background-color: white;
+}
