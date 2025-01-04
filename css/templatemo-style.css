@@ -476,8 +476,10 @@ figure.effect-sadie figcaption::before {
 
 figure.effect-sadie h2 {
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	position: absolute;
+	padding: 20px;
+	margin: 5px;
 	top: 50%;
 	left: 0;
 	width: 100%;
