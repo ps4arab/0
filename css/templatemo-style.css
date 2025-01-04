@@ -820,3 +820,22 @@ figure.effect-sadie:hover p {
 .tm-navbar-bg {
 	background-color: white;
 }
+
+.navbar-nav {
+	width: 350px;
+}
+@media only screen and (max-width: 535px) {
+.navbar-nav {
+	width: 60px;
+}
+}
+@media only screen and (max-width: 900px) {
+.navbar-nav {
+	width: 60px;
+}
+}
+@media only screen and (max-width: 1000px) {
+.navbar-nav {
+	width: 180px;
+}
+}
