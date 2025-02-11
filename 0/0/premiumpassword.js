@@ -1,13 +1,31 @@
+/*lazy images*/
+window.onload = function() {
+    let images = document.querySelectorAll('.lazy-load');
+    images.forEach(function(img) {
+        img.src = img.dataset.src;
+    });
+};
+
+/*password*/
 window.onload=passwordCheck;
 function passwordCheck()
 {
     var password = prompt("Please enter the password. Otherwise contact us: imadaliandroid@gmail.com");
-    if (password != "1234AB@"){
-setTimeout(15000)
-alert ("Wrong password! Time Out!");
+	/*if (document.getElementById(window.onload)) {
 document.getElementsByTagName("BODY")[0].style.display = "none";
-} else {
-return true;
+}
+	else*/ if (password === "20252026AB@") {
+alert ("Welcome To Premium Access!");
+}
+	else if (password != "20252026AB@"){
+alert ("Wrong password! Time Out! Refresh The Page And Try Again!");
+window.stop();
+location.reload();
+/*prompt ("Please enter the password. Otherwise contact us: imadaliandroid@gmail.com");
+document.getElementsByTagName("BODY")[0].style.display = "none";*/
+}
+	else {
+return false;
   }
 }
 
